@@ -7,6 +7,7 @@ from nltk.stem.porter import PorterStemmer
 import sklearn
 
 ps = PorterStemmer()
+nltk.download('punkt')
 
 tfidf = pickle.load(open('vectorizer.pkl', 'rb'))
 model = pickle.load(open('model.pkl', 'rb'))
