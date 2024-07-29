@@ -38,7 +38,7 @@ def transform_text(text):
     return " ".join(y)
 
 st.set_page_config(
-    page_title="Email/SMS Spam Classifier"
+    page_title="Email/SMS Spam Classifier",
     page_icon="Favicon.jpeg"
 )
 st.title('Email/SMS Spam Classifier')
