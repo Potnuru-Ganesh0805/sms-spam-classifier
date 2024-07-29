@@ -37,7 +37,10 @@ def transform_text(text):
 
     return " ".join(y)
 
-st.set_page_config(page_title="Email/SMS Spam Classifier")
+st.set_page_config(
+    page_title="Email/SMS Spam Classifier"
+    page_icon="Favicon.jpeg"
+)
 st.title('Email/SMS Spam Classifier')
 
 input_sms = st.text_area('Enter the message')
